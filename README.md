@@ -1,50 +1,32 @@
 # BeaconMind
 
-**An AI Studio application starter for a mind- and knowledge-oriented product concept.**
+An AI Studio application starter for a mind- and knowledge-oriented product concept.
 
-## Overview
+## Project overview
 
-This repository contains the application source and local development setup. This README is intended to help developers and reviewers understand the project, run it locally, and assess its current scope without overstating unverified capabilities.
+This repository contains app source and an npm-based local development path. The current application source should be used to confirm the specific workflows and capabilities implemented.
 
-## Highlights
-
-- Application UI and source code
-- Local development with npm
-- Environment-based configuration for supported AI features
-
-## Technology
-
-Node.js · npm · Gemini API (for configured features)
-
-## Quick start
-
-Prerequisite: a compatible Node.js installation. From a terminal:
+## Getting started
 
 ```bash
- git clone https://github.com/saikishore2410/BeaconMind.git
- cd BeaconMind
- npm install
-# Add GEMINI_API_KEY to .env.local
-npm run dev
+git clone https://github.com/saikishore2410/BeaconMind.git
+cd BeaconMind
+npm install
 ```
 
-Configure environment variables locally before launching the app. Use the variable names expected by the current source code, and keep real credentials out of version control.
+Configure any required environment variables according to the source code. If the Gemini API is used, place the key in a local `.env.local` file and keep it out of version control. Start the app with the script declared in `package.json`, commonly `npm run dev`.
 
-## Build and validation
+## Validation
 
-```bash
-npm run build
-```
+Run the build and any test/lint scripts that are present in `package.json`. Review error handling and fallback behaviour for missing configuration.
 
-Run any test or lint scripts defined in `package.json`. Review the source and deployment configuration before treating the application as production-ready.
+## Responsible implementation
 
-## Configuration and limitations
+Describe AI functionality only where it is connected and tested. Avoid sending private user data to external services without clear notice and appropriate safeguards.
 
-Document implemented capabilities accurately and never commit API keys.
+## Contributions
 
-## Contributing
-
-Issues and focused pull requests are welcome. Include reproduction steps for bugs and describe the validation performed for changes.
+Focused issues and pull requests with validation steps are welcome.
 
 ## License
 
