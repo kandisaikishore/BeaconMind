@@ -1,51 +1,44 @@
 # BeaconMind
 
-## Live Demo / Deployment URL
+[![Source](https://img.shields.io/badge/Source-GitHub-181717?logo=github)](https://github.com/kandisaikishore/BeaconMind) [![Last Commit](https://img.shields.io/github/last-commit/kandisaikishore/BeaconMind)](https://github.com/kandisaikishore/BeaconMind/commits/main)
 
-**Deployment URL:** Not verified yet. Add the confirmed public application URL here after checking the live service. The GitHub repository link is not a deployment URL.
+BeaconMind is a knowledge and assistance project workspace. Its purpose is to provide a base for organizing information and user-support workflows; the current implementation defines which features are available.
 
+## Project goals
 
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?logo=github)](https://github.com/saikishore2410/BeaconMind) [![Issues](https://img.shields.io/github/issues/saikishore2410/BeaconMind)](https://github.com/saikishore2410/BeaconMind/issues) [![Last Commit](https://img.shields.io/github/last-commit/saikishore2410/BeaconMind)](https://github.com/saikishore2410/BeaconMind/commits/main)
-
-> An AI Studio application starter for a mind- and knowledge-oriented product concept.
-
-## At a glance
-
-- **Purpose:** Use the feature and scope sections below to understand the problem this project addresses.
-- **Getting started:** Follow the repository-specific setup instructions and verify commands against the current source and package scripts.
-- **Configuration:** Keep API keys, database credentials, tokens, and private user data out of commits; configure secrets locally.
-- **Quality checks:** Run the available build, test, and lint commands before submitting changes.
-
-
-
-An AI Studio application starter for a mind- and knowledge-oriented product concept.
-
-## Project overview
-
-This repository contains app source and an npm-based local development path. The current application source should be used to confirm the specific workflows and capabilities implemented.
+- Make information easy to explore and understand
+- Provide a foundation for assistance-oriented user journeys
+- Keep application behaviour and configuration documented
+- Handle user data responsibly and avoid exposing secrets
 
 ## Getting started
 
 ```bash
-git clone https://github.com/saikishore2410/BeaconMind.git
+git clone https://github.com/kandisaikishore/BeaconMind.git
 cd BeaconMind
-npm install
 ```
 
-Configure any required environment variables according to the source code. If the Gemini API is used, place the key in a local `.env.local` file and keep it out of version control. Start the app with the script declared in `package.json`, commonly `npm run dev`.
+Check the repository manifests for prerequisites and the correct startup command. Set any required service credentials locally rather than committing them.
 
-## Validation
+## Quality checklist
 
-Run the build and any test/lint scripts that are present in `package.json`. Review error handling and fallback behaviour for missing configuration.
+- Verify primary flows and navigation
+- Test invalid input, empty states, and service failures
+- Confirm data access boundaries and user privacy
+- Check responsive layouts and accessibility
+- Add automated tests for implemented behaviour
 
-## Responsible implementation
+## Future improvements
 
-Describe AI functionality only where it is connected and tested. Avoid sending private user data to external services without clear notice and appropriate safeguards.
+- Document architecture and key user workflows
+- Add deployment and environment configuration instructions
+- Improve error reporting and observability
+- Keep feature documentation aligned with the code
 
-## Contributions
+## Contributing
 
-Focused issues and pull requests with validation steps are welcome.
+Issues with clear reproduction steps and focused pull requests are welcome.
 
 ## License
 
-No license is specified. Add a `LICENSE` file to define permitted reuse.
+No license file is currently declared. Add a `LICENSE` file to define reuse terms.
